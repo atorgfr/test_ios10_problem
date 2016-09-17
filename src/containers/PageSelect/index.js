@@ -29,7 +29,7 @@ export default class PageSelect extends Component {
             <div className={styles.root}>
                 <div onClick={this.goHome}>Home</div>
                 <br/><br/>
-                <select onChange={this.handleChange} value={this.state.currentvalue}>
+                <select onChange={this.handleChange} value={this.state.currentvalue} key={this.state.currentvalue}>
                     {
                             this.state.element.map(function(item, index){
                                 return <option key={index} value={item}>{item}</option>
