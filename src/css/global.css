@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--open-sans);
+  font-size: 12px;
+  margin: 0 0 var(--footer-medium-height);
+}
+
+:global body.no-scroll {
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+@media (--medium-viewport) {
+  body {
+    font-size: 14px;
+    background-color: var(--grayAthens);
+  }
+
+  :global body.no-scroll {
+    position: static;
+  }
+}
+
+@media (--large-viewport) {
+  html {
+    overflow-y: scroll;
+  }
+  body {
+    margin-bottom: var(--footer-large-height);
+
+  }
+}

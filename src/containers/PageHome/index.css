@@ -1,0 +1,10 @@
+.root {
+  background: var(--white);
+  text-align: center;
+}
+
+.head {
+  background: var(--blueIndigo);
+  color: var(--white);
+  padding: 50px;
+}

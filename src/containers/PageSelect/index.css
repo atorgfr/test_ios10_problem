@@ -1,0 +1,20 @@
+.h2 {
+  color: var(--blueIndigo);
+  text-align: center;
+  font-style: italic;
+}
+
+.h3 {
+  color: var(--black);
+  font-weight: bold;
+}
+
+.span {
+  color: var(--greenApple);
+}
+
+@media (--medium-viewport) {
+  .link {
+    font-size: 14px;
+  }
+}

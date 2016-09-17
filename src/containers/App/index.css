@@ -1,0 +1,15 @@
+.content {
+  position: relative;
+  padding-top: 15px;
+}
+
+@media (--medium-viewport) {
+  .content {
+    padding-top: 20px;
+  }
+
+}
+
+.homeContent {
+  padding-top: 0;
+}

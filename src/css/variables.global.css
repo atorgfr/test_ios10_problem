@@ -1,0 +1,38 @@
+/* COLORS */
+:root {
+  --black: #000;
+  --white: #fff;
+  --greenApple: #45c945;
+  --greenAppleDark: #36b736;
+  --pastelGreen: #63e063;
+  --blueIndigo: #4054cc;
+  --blueCloudBurst: #242a4f;
+  --grayAthens: #f5f6f8;
+  --grayDarkAthens: #e9ebee;
+  --grayMystic: #e5eaee; /* border */
+  --redCinnabar: #e84e40;
+  --Mojo: #c13f33;
+  --graySantas: #959daf;
+  --alabaster: #f8f8f8;
+  --sanMarino: #4460a0;
+  --cerulean: #00aaec;
+  --mischka: #d9dde2;
+  --porcelain: #e5e7e9;
+  --feijoa: #8cdb8d;
+  --zanah: #d2edd4;
+  --footer-medium-height: 118px;
+  --footer-large-height: 55px;
+}
+
+/* MEDIA QUERIES */
+@custom-media --medium-viewport screen and (min-width: 768px);
+@custom-media --large-viewport screen and (min-width: 1024px);
+@custom-media --wide-viewport screen and (min-width: 1280px);
+
+/* FONTS */
+:root {
+  --open-sans: 'Open Sans', sans-serif;
+  --ubuntu: 'Ubuntu', sans-serif;
+}
+
+/* Z-INDEX */
