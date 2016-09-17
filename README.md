@@ -1,7 +1,7 @@
 ## Installation
 
 ```console
-$ git clone https://github.com/atorgfr/monpetitgazon_front.git
+$ clone this repo
 $ npm i
 ```
 ## Start development server
